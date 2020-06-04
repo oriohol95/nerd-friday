@@ -8,7 +8,11 @@ Welcome to Koobin nerd Friday, here you'll find a weekly technical exercise to s
 
 Easy, the only thing you have to do is to **fork this repository**, then clone it and solve the exercise on your local computer. The exercises are placed under the `exercises` directory, each one will have its folder with instructions and, in some cases, a little scaffold to help you start with ease.
 
-Before submitting, make sure that you create a branch with your name followed by the exercise number, as follows: `david-exercise-001`. Once ready, submit a PR from that branch to the master branch of this repo, the PR will never be merged, but it is a great spot to discuss the solutions and highlight the goods and the bads of each one implementation.
+Before submitting, make sure that you create a branch with your name followed by the exercise number, as follows:
+
+`david-exercise-001`
+
+Once ready, submit a PR from that branch to the master branch of this repo, the PR will never be merged, but it is a great spot to discuss the solutions and highlight the goods and the bads of each one implementation.
 
 ## I would like to improve my skills in X, can I request for an exercise?
 
