@@ -1,6 +1,6 @@
-<div style="text-align: center;">
+<p align="center">
   <img src="assets/nerd_koobin_logo.svg" />
-</div>
+</p>
 
 Welcome to Koobin nerd Friday, here you'll find a weekly technical exercise to sharpen your development skills. The exercise difficulty level and length will be adapted week by week depending on the progress and the engagement of the team since the goal of this is to walk together through a journey that will make us better professionals.
 
@@ -14,6 +14,6 @@ Before submitting, make sure that you create a branch with your name followed by
 
 Just open an issue with your proposal and we'll keep it into account at the time of preparing further exercises.
 
-<div style="text-align: center;">
+<div align="center">
   Made with <span role="img">❤️</span> by <a href="https://github.com/d-asensio">d-asensio</a>
 </div>
