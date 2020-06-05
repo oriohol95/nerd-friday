@@ -1,6 +1,8 @@
 # Exercise 1: GraphQL Match
 
-In this exercise, you are requested to migrate some of the features of an old good REST API to GraphQL. The API that you have to use is [football-data.org](https://www.football-data.org/).
+In this exercise, you are requested to migrate some of the features of an old good REST API to GraphQL.
+
+The API that you have to use is [football-data.org](https://www.football-data.org/).
 
 The scaffold of the project is already created, you just have to fill the gaps, this will allow you to focus on how GraphQL works, which is our goal.
 
@@ -24,7 +26,7 @@ query {
 
 ## Exercise requirements
 
-You have to create the schema of the GraphQL to allow users to query all the information about a [team](www.football-data.org/documentation/api#team) and its [players](www.football-data.org/documentation/api#player), to make things more interesting, you have almost complete freedom to define the schema, there are only 3 rules:
+You have to create the schema of the GraphQL to allow users to query all the information about a [team](www.football-data.org/documentation/api#team) and its [players](www.football-data.org/documentation/api#player), to make things more interesting, you have almost complete freedom to define the schema, there are only 4 rules:
 
 1. The root query definition must be:
 
@@ -46,3 +48,5 @@ type Team {
   players: [Player!]!
   ...otherRelevantFields
 }
+
+4. You have to write tests for your solution.
