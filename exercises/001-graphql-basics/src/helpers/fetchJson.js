@@ -1,8 +1,6 @@
-/* globals fetch */
-
-import 'cross-fetch'
 import queryString from 'query-string'
 
+import fetch from './fetch'
 import logger from './logger'
 
 const defaultOptions = {
