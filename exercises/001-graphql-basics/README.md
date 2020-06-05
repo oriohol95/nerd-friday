@@ -48,5 +48,6 @@ type Team {
   players: [Player!]!
   ...otherRelevantFields
 }
+```
 
 4. You have to write tests for your solution.
