@@ -1,14 +1,17 @@
 import { gql } from 'apollo-server'
 
-import Greeter from './greeter'
+import Player from './player'
+import Team from './team'
 
 const RootQuery = gql`
   type Query {
-    greet (playerId: ID!): Greeter
+    team (teamId: ID!): Team
+    player (playerId: ID!): Player
   }
 `
 
 export default {
   RootQuery,
-  ...Greeter
+  ...Player,
+  ...Team
 }
